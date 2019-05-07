@@ -244,7 +244,7 @@ public class DefineWOApplicationResourcesMojo extends
     }
 
     private void executeCopyWebServerResources() throws MojoExecutionException {
-	getLog().info("Coping WebServerResources");
+	getLog().info("Copying WebServerResources");
 
 	@SuppressWarnings("unchecked")
 	Set<Artifact> artifacts = project.getArtifacts();
